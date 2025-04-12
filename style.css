@@ -207,7 +207,32 @@ text-align: center;
   #dining h1, #dining h3 {
     text-align: center;
   }
+/* spa style page*/
+
+  .split-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .left-column,
+  .right-column {
+    width: 48%; /* Adjust this width to suit your layout */
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  p {
+    margin: 5px 0;
+  }
    
+
+  h1{
+    text-align: center;
+    margin-top: 5%;
+  }
 
 
 
