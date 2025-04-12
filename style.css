@@ -49,7 +49,104 @@ header{
 }
 
 .text p{
-    position: absolute;
-    top: 25%
+    top: 25%;
+    align-items: center;
 }
+
+#textone h3 p{
+    align-items: right;
+    padding-bottom: 10%;
+}
+#texttwo p{
+    align-items: right;
+    margin-bottom: 10%;
+}
+
+#te
+
+.overlay-container {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .overlay-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+
+    border: 0.7rem solid purple;
+    padding: none;
+  }
+
+  #textthree{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+
+  }
+
+  #textthree img{
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+
+  }
+
+  h3{
+    display: flex;
+  }
+
+  .nextsection{
+    display: flex;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    color: purple
+  }
+
+  #final{
+    text-align: center;
+  }
+
+/* discover style page*/
+.container1{
+    display: flex;
+    align-items: center;
+}
+.discover-box{
+    width: 30rem;
+    height: 10rem;
+    margin-top: 30px;
+    margin-left: 30px;
+    box-shadow: grey;
+    font-size: 15px;
+    color: black;
+    text-align: center;
+  
+}
+
+.image-container {
+    display: block; 
+    align-items: center;
+    margin-left: auto;
+    margin-top: auto;
+  }
+
+
+  /* accomidation style page*/
+
+  .lando{
+    display: flex;
+    align-items: left;
+    margin-top: 10%;
+
+  }
+
+   
+
+
 
