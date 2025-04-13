@@ -173,12 +173,24 @@ header{
     align-items: center;
   }
 
+  #align {
+    text-align: center;
+    font-size: 30px;
+  }
+
+
+
     
-  .room{
+  .room1 .room2{
     max-width: 100%;
     height: auto;
-    border-radius: 8px;
-    margin-left: 27%;
+    border-radius: 8%;
+    text-align: center;
+  }
+
+  #lewis{
+    text-align: center;
+    margin-left: 25%;
   }
 
 
