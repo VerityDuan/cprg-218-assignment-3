@@ -23,32 +23,8 @@ header{
 .logo{
     cursor: pointer;
 }
-.nav-links{
-    list-style: none;
-}
 
-.nav-links li{
-    display: inline-block;
-    padding: 0px 20px
-}
 
-.nav-links li a{
-    transition: all 0.3s ease 0s
-}
-
-.text-block{
-    display: flex;
-    align-items: center;
-}
-
-.text-block img{
-    height: 50rem;
-    width: 100rem;
-}
-
-.text-block p{
-    margin: 0%;
-}
 
 .text p{
     top: 25%;
