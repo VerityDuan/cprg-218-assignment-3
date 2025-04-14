@@ -5,66 +5,107 @@
     background-color: #ddf6fe;
 }
 
-li, a{
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.main-nav {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #4b0082;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+/* Weather box */
+.weather-container {
+  text-align: right;
+}
+
+#weather {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+
+
+li{
     text-decoration: none;
     color: blueviolet;
 }
 
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 10;
-    padding: 0 40px; 
-    margin-top: 20px;
+header {
+  display: flex;
+  align-items: center;       
+  justify-content: space-between; 
+  flex-wrap: wrap;             
 }
 
 
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));  /* Create responsive columns */
+  gap: 10px;
+}
+
+.grid-item {
+  background-color: lightgray;
+  padding: 20px;
+}
 .text p{
-    top: 25%;
-    align-items: center;
+    text-align: center;
 }
-
-#textone h3 p{
-    align-items: right;
-    padding-bottom: 10%;
-}
-#texttwo p{
-    align-items: right;
-    margin-bottom: 10%;
+.textthree{
+  text-align: center;
+  font-size: 50px
 }
 
 
-  #textthree{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    padding: 20px;
+.textone{
+text-align: center;
+}
 
-  }
 
-  #textthree img{
-    width: 50%;
-    height: auto;
-    border-radius: 8px;
+.texttwo{
+  text-align: center;
+}
 
-  }
-
-  h3{
-    display: flex;
-  }
+#text3{
+  text-align: center;
+  
+}
 
   #final{
+    align-items: center;
     text-align: center;
     max-width: 1000px;
-    margin: 2rem;
-    padding: 2rem;
+    margin-left: 17rem;
+    padding: 0;
     border-radius: 2%;
     font-family: Arial, Helvetica, sans-serif, serif;
+    border: solid 4px;
+    box-shadow: #000;
 
   }
 
-/* discover style page*/
+
 .container1{
     display: flex;
     align-items: center;
@@ -148,7 +189,6 @@ text-align: center;
 
   /* spa and dining ameneties style page*/
  
-
   #dining #titlecenter {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -194,7 +234,7 @@ text-align: center;
     margin-top: 5%;
   }
   .right-column {
-    width: 48%; /* Adjust this width to suit your layout */
+    width: 48%; 
   }
   
   h3 {
@@ -208,7 +248,6 @@ text-align: center;
    
   .facialimage{
     text-align: center;
-    margin-left: 24%;
     margin-top: 3%;
     border: solid 2px black;
   }
@@ -221,20 +260,25 @@ text-align: center;
     text-align: center;
   }
 
-/* weather api */
-  #weather {
-    margin-top: 20px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    display: inline-block;
-    background-color: #f0f0f0;
-}
-#weather h2 {
-    margin: 0;
-}
-#weather p {
+
+
+
+/*media quaries*/
+@media (min-width: 768px) {
+  .container {
+    padding: 2rem;
     font-size: 18px;
+  }
+}
+@media (min-width: 1024px) {
+
 }
 
 
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
