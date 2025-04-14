@@ -45,6 +45,10 @@
   margin-bottom: 10px;
 }
 
+.weather-container #weather{
+  margin: 0 10px;
+}
+
 
 li{
     text-decoration: none;
@@ -179,11 +183,8 @@ text-align: center;
 
 
   #lando{
-margin-left: 20%;
-text-align: center;
-
-
-
+    margin-left: 20%;
+    text-align: center;
     
   }
 
